@@ -32,8 +32,7 @@ header {
 }
 
 header h1 {
-    color: #5D5D5D;
-    background-color:#F7F7F7;
+    color: black;
     padding: 5px 1% 5px 6%;
     margin:0;
     font-size: 4vw;
@@ -80,7 +79,7 @@ main {
     background-size:cover;
     background-position: center;
     background-blend-mode: soft-light;
-    min-height: 30vh;
+    /* min-height: 30vh; */
     color:#d4d6cf;
     padding: 2% 6%;
     display:flex;
@@ -152,7 +151,7 @@ a:visited {
 }
 .flex-item {
     border: 5px solid #87A62C;
-    /* background-color: #5D5D5D; */
+    background-color: #5D5D5D;
     color:black;
     min-height: 150px;
     max-height: 150px;
@@ -176,7 +175,7 @@ a:visited {
 
 .flex-item:hover {
     /* background-color: black; */
-    background-color: #5D5D5D;
+    background-color: #272727;
 }
 
 .flex-item div {
